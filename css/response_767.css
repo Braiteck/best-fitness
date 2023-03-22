@@ -284,8 +284,9 @@
     -------------*/
     aside
     {
-        margin-top: 52px;
         display: none;
+
+        margin-top: 52px;
     }
 
 
@@ -443,7 +444,7 @@
     .advantages .item .thumb
     {
         position: relative;
-        top: 0px;
+        top: 0;
         bottom: 0;
 
         width: 100%;

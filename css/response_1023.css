@@ -621,11 +621,13 @@
         font-size: 32px;
     }
 
-    .block_head_new{
+    .block_head_new
+    {
         margin-bottom: 0;
     }
 
-    .advantages .item .thumb img{
+    .advantages .item .thumb img
+    {
         max-width: 100%;
     }
 }

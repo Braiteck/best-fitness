@@ -1,0 +1,514 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 32px;
+    }
+
+
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 64px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
+    /*--------------
+        ButtonUp
+    --------------*/
+    .buttonUp .btn
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .buttonUp .btn .icon
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination a
+    {
+        line-height: 40px;
+
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .menu
+    {
+        width: calc(100% + 40px);
+        margin: 0 -20px;
+    }
+
+
+    header .sub_menu.level3 a
+    {
+        padding: 0 20px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header .logo img
+    {
+        height: 56px;
+    }
+
+
+    .mob_header .mob_menu_btn
+    {
+        margin-left: 24px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        line-height: calc(100% + 4px);
+
+        padding-bottom: 8px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title
+    {
+        line-height: calc(100% + 4px);
+
+        padding-bottom: 8px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .line
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .form .field .icon
+    {
+        width: 18px;
+        height: 18px;
+    }
+
+
+    .form .input
+    {
+        font-size: 15px;
+
+        height: 56px;
+        padding: 0 19px;
+    }
+
+    .form .field .icon + .input
+    {
+        padding-left: 55px;
+    }
+
+
+    .form .agree label
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        min-height: 20px;
+        padding-left: 32px;
+    }
+
+    .form .agree label .check
+    {
+        top: 0;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .title
+    {
+        font-size: var(--font_size_title);
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .article_title
+    {
+        font-size: 25px;
+        line-height: calc(100% + 5px);
+    }
+
+
+    .article_info .date
+    {
+        font-size: 12px;
+        line-height: 25px;
+
+        min-width: 80px;
+    }
+
+
+    .article_info .text_block
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-bottom: -20px;
+    }
+
+    .articles .row > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .articles .article .info
+    {
+        padding: 26px 19px 19px;
+    }
+
+
+    .articles .article .date
+    {
+        font-size: 12px;
+        line-height: 25px;
+
+        min-width: 80px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog .row
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+    .catalog .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .catalog .category .info
+    {
+        padding: 20px 24px;
+    }
+
+
+    .catalog .category .name
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*------------
+        Filter
+    ------------*/
+    .filter .brands .row > *
+    {
+        width: calc(50% - 8px);
+    }
+
+
+    .filter .brands label div
+    {
+        height: 60px;
+    }
+
+
+
+    .filter .fields
+    {
+        margin-left: 0;
+    }
+
+    .filter .fields > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .row
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+    .products .row > *,
+    .content .products .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .products .product
+    {
+        padding: 23px 19px 19px;
+    }
+
+
+    .products .product .btn
+    {
+        font-size: 12px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .row
+    {
+        margin-bottom: -20px;
+    }
+
+    .contacts_info .row > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*--------------------
+        Contacts block
+    --------------------*/
+    .contacts_block .map .data
+    {
+        padding: 20px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .feedback .desc
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .section .title
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .projects .row
+    {
+        margin-left: 0;
+    }
+
+    .projects .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .projects .project .thumb .btn
+    {
+        font-size: 13px;
+        line-height: 46px;
+
+        width: 172px;
+        height: 48px;
+    }
+
+
+
+    /*------------------------
+        Send specification
+    ------------------------*/
+    .send_specification
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .send_specification .data
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 40px 20px;
+    }
+
+
+    .send_specification .block_title
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images .big a
+    {
+        height: 300px;
+    }
+
+
+    .product_info .product_name
+    {
+        font-size: 22px;
+    }
+
+
+    .product_info .articul
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*------------------
+        Product data
+    ------------------*/
+    .product_data .peculiarities .item .thumb
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .product_data .peculiarities .item .name
+    {
+        font-size: 16px;
+    }
+
+
+    .product_data .peculiarities .item .desc
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 28px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 28px;
+    }
+
+
+    .modal_desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .modal .form
+    {
+        margin-top: 24px;
+    }
+
+    .modal .form .line
+    {
+        margin-bottom: 12px;
+    }
+
+    .modal .form .submit
+    {
+        padding-top: 8px;
+    }
+}

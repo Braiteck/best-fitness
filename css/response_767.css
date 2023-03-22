@@ -1,0 +1,1069 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 36px;
+    }
+
+
+    .content_flex .content > * + .text_block
+    {
+        margin-top: 52px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 68px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*--------------
+        ButtonUp
+    --------------*/
+    .buttonUp
+    {
+        right: 12px;
+        bottom: 12px;
+    }
+
+
+    .buttonUp .btn
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+
+    /*-------------------
+        Mob. all link
+    -------------------*/
+    .mob_all_link
+    {
+        display: block;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header,
+    header.absolute
+    {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        right: 100%;
+        left: auto;
+
+        width: 325px;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+        padding: 0;
+
+        transition: transform .3s linear;
+
+        background: #101114;
+    }
+
+    header.show
+    {
+        transform: translateX(100%);
+    }
+
+
+    header .scroll
+    {
+        display: flex;
+        overflow: auto;
+        flex-direction: column;
+
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        padding: 16px 0 24px;
+
+        overscroll-behavior-y: contain;
+    }
+
+    header .scroll > *
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+
+    header .logo
+    {
+        display: none;
+    }
+
+
+    header .data
+    {
+        margin-top: 20px;
+        padding-top: 24px;
+
+        border-top: 1px solid rgba(255, 255, 255, .15);
+
+        order: 2;
+    }
+
+
+    header .callback_btn
+    {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+
+    header .specification_link
+    {
+        width: 100%;
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+    header .search
+    {
+        display: none;
+    }
+
+
+
+    header .bottom
+    {
+        display: flex;
+        flex-direction: column;
+
+        border: none;
+        background: none;
+
+        flex: 1 0 auto;
+    }
+
+    header .bottom .cont
+    {
+        display: flex;
+        flex-direction: column;
+
+        flex: 1 0 auto;
+    }
+
+
+    header .menu
+    {
+        display: none;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+    }
+
+
+    header .menu_item > a
+    {
+        transition: color .2s linear;
+        text-align: left;
+    }
+
+    header .menu_item > a.sub_link:before
+    {
+        right: 0;
+        left: 24px;
+
+        margin-top: -7px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    header .menu_item > a:after
+    {
+        display: none;
+    }
+
+    header .menu_item:hover > a,
+    header .menu_item > a.active
+    {
+        color: #ae0b05;
+    }
+
+
+    header .menu_item > .sub_menu,
+    header .menu_item:hover > .sub_menu
+    {
+        position: relative;
+        top: 0;
+
+        display: none;
+        visibility: hidden;
+
+        width: 100%;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+    header .menu_item > .sub_menu:before
+    {
+        display: none;
+    }
+
+    header .menu_item > a.touch_link + .sub_menu.show
+    {
+        display: block;
+        visibility: visible;
+    }
+
+
+    header .sub_menu > * .sub_menu.level3,
+    header .sub_menu > *:hover .sub_menu.level3
+    {
+        position: relative;
+        left: 0;
+
+        display: none;
+        visibility: hidden;
+
+        min-height: 0;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+    header .sub_menu a.touch_link + .sub_menu.level3.show
+    {
+        display: block;
+        visibility: visible;
+    }
+
+
+    header .mob_menu
+    {
+        display: block;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        margin-top: 52px;
+        display: none;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    .breadcrumbs
+    {
+        font-size: 13px;
+    }
+
+
+
+    .page_title
+    {
+        line-height: calc(100% + 8px);
+
+        margin-top: 20px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .all_link
+    {
+        display: none;
+    }
+
+    .block_head .all_link a
+    {
+        line-height: 48px;
+
+        width: 160px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *.width1of3
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .form .line
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .form .submit_btn
+    {
+        width: 100%;
+        height: 56px;
+        padding: 0 24px;
+
+        order: 2;
+    }
+
+
+    .form .submit .agree
+    {
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 26px;
+    }
+
+
+    .text_block .images .row
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+    .text_block .images .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: calc(var(--font_size_title) + 2px);
+    }
+
+    .first_section .title span:after
+    {
+        bottom: 2px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .first_section .btn
+    {
+        width: 220px;
+        height: 52px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        padding: 60px 0 68px;
+    }
+
+
+    .advantages .item
+    {
+        padding: 0 20px 20px;
+    }
+
+
+    .advantages .item .thumb
+    {
+        position: relative;
+        top: 0px;
+        bottom: 0;
+
+        width: 100%;
+        height: auto;
+        margin: 0 0 26px;
+    }
+
+
+    .advantages .item .data,
+    .advantages .item:nth-child(2n+1) .data
+    {
+        width: 100%;
+    }
+
+
+    .advantages .item .title
+    {
+        font-size: 19px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .article_title
+    {
+        font-size: 28px;
+        line-height: calc(100% + 4px);
+    }
+
+
+    .article_info .date
+    {
+        font-size: 13px;
+        line-height: 26px;
+
+        min-width: 88px;
+    }
+
+
+    .article_info .text_block
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+    .articles .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+    .articles .article .date
+    {
+        font-size: 13px;
+        line-height: 26px;
+
+        top: -13px;
+
+        min-width: 88px;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: 15px;
+        line-height: calc(100% + 5px);
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog.bg
+    {
+        padding: 60px 0;
+    }
+
+
+    .catalog .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .catalog .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .catalog .category .info
+    {
+        padding: 16px 20px;
+    }
+
+
+    .catalog .category .name
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-------------------
+        Category head
+    -------------------*/
+    .category_head
+    {
+        padding: 24px 0 40px;
+    }
+
+
+
+    /*------------
+        Filter
+    ------------*/
+    .filter .mob_filter_btn
+    {
+        display: block;
+    }
+
+
+    .filter .form
+    {
+        display: none;
+
+        padding-top: 20px;
+    }
+
+
+    .filter .brands .row
+    {
+        margin-bottom: -8px;
+        margin-left: -8px;
+    }
+
+    .filter .brands .row > *
+    {
+        width: calc(33.333% - 8px);
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+
+
+    .filter .brands label div
+    {
+        width: 100%;
+        height: 64px;
+    }
+
+
+
+    .filter .fields
+    {
+        margin-bottom: -8px;
+        margin-left: -8px;
+    }
+
+    .filter .fields > *
+    {
+        width: calc(50% - 8px);
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .products .row > *,
+    .content .products .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .projects .project .info
+    {
+        padding: 16px;
+    }
+
+    .projects .project .name
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .row
+    {
+        margin-left: 0;
+    }
+
+    .contacts_info .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .contacts_info .map
+    {
+        height: 360px;
+    }
+
+
+
+    /*--------------------
+        Contacts block
+    --------------------*/
+    .contacts_block
+    {
+        padding: 60px 0 68px;
+    }
+
+
+    .contacts_block .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .contacts_block .map .data
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        width: 100%;
+
+        transform: none;
+    }
+
+
+    .contacts_block .map .address
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        margin-bottom: 68px;
+    }
+
+
+    .feedback .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .feedback .desc
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .section .title
+    {
+        font-size: 18px;
+    }
+
+
+    .projects .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .projects .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .projects .project .thumb .btn
+    {
+        font-size: 13px;
+        line-height: 46px;
+
+        width: 172px;
+        height: 48px;
+    }
+
+
+
+    /*-------------------
+        Specification
+    -------------------*/
+    .specification .product
+    {
+        position: relative;
+
+        min-height: 112px;
+        padding: 15px 19px 15px 111px;
+
+        flex-wrap: wrap;
+    }
+
+
+    .specification .product .number
+    {
+        display: none;
+    }
+
+
+    .specification .product .thumb
+    {
+        position: absolute;
+        top: 11px;
+        left: 11px;
+
+        width: 80px;
+        min-width: 0;
+        height: 80px;
+        margin-left: 0;
+    }
+
+
+    .specification .product .name
+    {
+        font-size: 15px;
+
+        width: 100%;
+        margin-bottom: 12px;
+        margin-left: auto;
+        padding-right: 28px;
+    }
+
+
+    .specification .product .amount
+    {
+        margin-left: 0;
+    }
+
+
+    .specification .product .delete_btn
+    {
+        position: absolute;
+        top: 11px;
+        right: 11px;
+
+        margin-left: 0;
+    }
+
+
+
+    .specification .total_info
+    {
+        margin-top: 28px;
+    }
+
+
+    .specification .total .label
+    {
+        font-size: 26px;
+        line-height: calc(100% + 4px);
+    }
+
+
+
+    .specification .btns
+    {
+        margin-left: 0;
+    }
+
+    .specification .btns > *,
+    .specification .btns > * + *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .specification .btns > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*------------------------
+        Send specification
+    ------------------------*/
+    .send_specification
+    {
+        margin-bottom: 68px;
+    }
+
+
+    .send_specification .data
+    {
+        padding: 28px;
+    }
+
+
+    .send_specification .block_title
+    {
+        font-size: 24px;
+    }
+
+
+    .send_specification .form .columns > *.width1of3,
+    .send_specification .form .columns > *.width2of3
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .send_specification .form .submit.width2of3 .agree
+    {
+        margin-top: 0;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images .big a
+    {
+        height: 320px;
+    }
+
+
+    .product_info .images .thumbs
+    {
+        margin-top: 12px;
+        padding: 0 56px;
+    }
+
+    .product_info .images .swiper-button-prev
+    {
+        left: -56px;
+    }
+
+    .product_info .images .swiper-button-next
+    {
+        right: -56px;
+    }
+
+
+    .product_info .images .thumbs .btn
+    {
+        height: 64px;
+        padding: 3px;
+    }
+
+
+    .product_info .product_name
+    {
+        font-size: 24px;
+    }
+
+
+    .product_info .btns .btn
+    {
+        width: 100%;
+        padding: 0 23px;
+    }
+
+
+
+    /*------------------
+        Product data
+    ------------------*/
+    .product_data
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .product_data .peculiarities .row
+    {
+        margin-bottom: -40px;
+        margin-left: -20px;
+    }
+
+    .product_data .peculiarities .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+
+
+
+    .product_data .features .label
+    {
+        font-weight: 600;
+
+        margin-bottom: 4px;
+    }
+
+    .product_data .features .label,
+    .product_data .features .val
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 60px 0;
+    }
+
+
+    footer .data
+    {
+        width: 100%;
+        margin-bottom: 40px;
+
+        text-align: center;
+    }
+
+
+    footer .logo img
+    {
+        height: 72px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    footer .col_right
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    footer .contacts
+    {
+        margin-right: auto;
+    }
+
+
+    footer .callback_btn
+    {
+        height: 44px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    footer .socials
+    {
+        margin-top: 40px;
+
+        justify-content: center;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 420px;
+        padding: 40px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 30px;
+    }
+
+
+    .modal_desc
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+}

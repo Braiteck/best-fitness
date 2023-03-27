@@ -475,6 +475,223 @@
 
 
 
+    /*----------------
+        Brand head
+    ----------------*/
+    .brand_head .logo
+    {
+        margin-bottom: 24px;
+    }
+
+    .brand_head .logo div
+    {
+        padding-bottom: 20px;
+    }
+
+    .brand_head .logo img
+    {
+        max-height: 60px;
+    }
+
+
+    .brand_head .title
+    {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+
+    .brand_head .btn
+    {
+        width: 212px;
+        height: 52px;
+    }
+
+
+
+    /*---------------------
+        Top brand level
+    ---------------------*/
+    .top_brand_level .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+    .top_brand_level .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+    .top_brand_level .item
+    {
+        display: flex;
+
+        text-align: left;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+
+    .top_brand_level .item .icon
+    {
+        width: 68px;
+        height: 68px;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .top_brand_level .item .icon + *
+    {
+        width: calc(100% - 92px);
+
+        align-self: center;
+    }
+
+
+
+    /*----------------
+        Brand info
+    ----------------*/
+    .brand_info .row
+    {
+        margin-left: 0;
+    }
+
+
+    .brand_info .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .brand_info .item .name
+    {
+        font-size: 18px;
+    }
+
+
+    .brand_info .item .desc
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*---------------------
+        Train naturally
+    ---------------------*/
+    .train_naturally .data,
+    .train_naturally2 .data
+    {
+        padding: 20px;
+    }
+
+
+
+    /*--------------------------
+        Efficient production
+    --------------------------*/
+    .efficient_production .row
+    {
+        margin-left: 0;
+    }
+
+    .efficient_production .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .efficient_production .item
+    {
+        font-size: 16px;
+    }
+
+    .efficient_production .item br
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        Brand gallery
+    -------------------*/
+    .brand_gallery .logo img
+    {
+        max-height: 52px;
+    }
+
+
+
+    /*------------------------
+        Zoning methodology
+    ------------------------*/
+    .zoning_methodology .data
+    {
+        padding-bottom: 136px;
+    }
+
+
+    .zoning_methodology .data .logo
+    {
+        width: 124px;
+    }
+
+
+
+    /*------------------------
+        Concept advantages
+    ------------------------*/
+    .concept_advantages .row
+    {
+        margin-bottom: -20px;
+    }
+
+    .concept_advantages .row > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .concept_advantages .item
+    {
+        padding: 20px;
+    }
+
+
+    .concept_advantages .img
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*-------------------
+        Sketch design
+    -------------------*/
+    .sketch_design .row
+    {
+        padding: 20px;
+    }
+
+
+    .sketch_design .img
+    {
+        width: 100%;
+    }
+
+
+
     /*-----------
         PopUp
     -----------*/

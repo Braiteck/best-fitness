@@ -1987,6 +1987,15 @@ aside
 }
 
 
+.block_head .desc
+{
+    font-size: 20px;
+    line-height: 161.3%;
+
+    margin-top: 22px;
+}
+
+
 .block_head .all_link
 {
     margin-left: auto;
@@ -2018,6 +2027,24 @@ aside
 .block_head .all_link a:hover
 {
     background: #2e2e2e;
+}
+
+
+.block_head.center
+{
+    text-align: center;
+}
+
+.block_head.center .title,
+.block_head.center .desc
+{
+    width: 100%;
+    padding: 0;
+}
+
+.block_head.center .title:after
+{
+    display: none;
 }
 
 
@@ -4964,6 +4991,1420 @@ aside
 
 
 
+/*----------------
+    Brand head
+----------------*/
+.brand_head
+{
+    position: relative;
+    z-index: 3;
+
+    overflow: hidden;
+
+    background: #2c2c2c;
+}
+
+.brand_head:before
+{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, .88) 0%, rgba(0, 0, 0, 0) 43.22%);
+}
+
+.brand_head:after
+{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+
+    background: linear-gradient(90deg, #101010 0%, rgba(15, 24, 54, 0) 100%);
+}
+
+
+.brand_head .bg
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+.brand_head .cont
+{
+    position: relative;
+    z-index: 3;
+
+    display: flex;
+
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 234px;
+    padding-bottom: 120px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.brand_head .data
+{
+    color: #fff;
+
+    width: 524px;
+    max-width: 100%;
+}
+
+
+.brand_head .logo
+{
+    margin-bottom: 27px;
+}
+
+.brand_head .logo div
+{
+    position: relative;
+
+    display: inline-block;
+
+    padding-bottom: 33px;
+
+    vertical-align: top;
+}
+
+.brand_head .logo div:after
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    display: block;
+
+    width: 100vw;
+    height: 4px;
+
+    content: '';
+
+    background: #ae0b05;
+}
+
+.brand_head .logo img
+{
+    display: block;
+
+    max-width: 100%;
+}
+
+
+.brand_head .title
+{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+
+    text-transform: uppercase;
+}
+
+
+.brand_head .btn
+{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+
+    width: 260px;
+    height: 70px;
+    margin-top: 66px;
+
+    transition: background .2s linear;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+
+    border-radius: 3px;
+    background: #ae0b05;
+}
+
+.brand_head .btn:hover
+{
+    background: #d3241d;
+}
+
+
+
+/*---------------------
+    Top brand level
+---------------------*/
+.top_brand_level
+{
+    padding: 76px 0;
+
+    background: #ededed;
+}
+
+
+.top_brand_level .row
+{
+    margin-bottom: -30px;
+    margin-left: -30px;
+
+    justify-content: center;
+}
+
+.top_brand_level .row > *
+{
+    width: calc(33.333% - 30px);
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+
+.top_brand_level .item
+{
+    font-size: 20px;
+    line-height: 136.3%;
+
+    text-align: center;
+}
+
+
+.top_brand_level .item .icon
+{
+    display: flex;
+
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 32px;
+
+    border-radius: 50%;
+    background: #000;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.top_brand_level .item .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+/*----------------
+    Brand info
+----------------*/
+.brand_info
+{
+    padding: 73px 0 89px;
+}
+
+.brand_info.dark
+{
+    color: #fff;
+
+    margin: 0;
+    padding: 73px 0 112px;
+
+    background: linear-gradient(119.35deg, #0f0f0f .94%, #151b30 100%);
+}
+
+
+.brand_info .row
+{
+    margin-bottom: -30px;
+    margin-left: -30px;
+
+    justify-content: center;
+}
+
+.brand_info .row > *
+{
+    width: calc(33.333% - 30px);
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+
+.brand_info .item
+{
+    text-align: center;
+}
+
+
+.brand_info .item .thumb
+{
+    position: relative;
+
+    overflow: hidden;
+
+    margin-bottom: 27px;
+    padding-bottom: 62.368%;
+
+    border-radius: 3px;
+    background: #ddd;
+}
+
+.brand_info .item .thumb img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+.brand_info .item .name
+{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 161.3%;
+}
+
+
+.brand_info .item .desc
+{
+    font-size: 17px;
+    line-height: 161.3%;
+}
+
+
+
+/*---------------------
+    Train naturally
+---------------------*/
+.train_naturally
+{
+    color: #fff;
+
+    padding: 110px 0 102px;
+
+    background: linear-gradient(119.35deg, #0f0f0f .94%, #151b30 100%);
+}
+
+
+.train_naturally .row
+{
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+
+.train_naturally .image
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: calc(100% - 445px);
+
+    border-radius: 3px;
+    background: #ddd;
+}
+
+.train_naturally .image img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+.train_naturally .data
+{
+    font-size: 20px;
+    line-height: 161.3%;
+
+    width: 414px;
+    max-width: 100%;
+    padding: 94px 57px 94px 50px;
+
+    border: 15px solid rgba(255, 255, 255, .1);
+    border-radius: 3px;
+}
+
+
+.train_naturally .data li
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    padding-left: 16px;
+
+    list-style-type: none;
+}
+
+.train_naturally .data li + li
+{
+    margin-top: 4px;
+}
+
+.train_naturally .data li:before
+{
+    position: absolute;
+    top: 13px;
+    left: 0;
+
+    display: block;
+
+    width: 5px;
+    height: 5px;
+
+    content: '';
+
+    border-radius: 50%;
+    background: currentColor;
+}
+
+
+.train_naturally2
+{
+    color: var(--text_color);
+
+    padding: 104px 0 110px;
+
+    background: #ededed;
+}
+
+
+.train_naturally2 .data
+{
+    padding: 30px 32px 30px 33px;
+
+    border-color: #fff;
+}
+
+
+
+/*----------------------
+    Created athletes
+----------------------*/
+.created_athletes
+{
+    padding: 79px 0 91px;
+
+    background: #ededed;
+}
+
+
+.created_athletes .row
+{
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+
+.created_athletes .image
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: calc(100% - 615px);
+
+    border-radius: 3px;
+    background: #ddd;
+}
+
+.created_athletes .image img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+.created_athletes .data
+{
+    font-size: 20px;
+    line-height: 161.3%;
+
+    width: 585px;
+    max-width: 100%;
+}
+
+.created_athletes .data > *
+{
+    padding: 24px 29px;
+
+    border: 15px solid #fff;
+    border-radius: 3px;
+}
+
+.created_athletes .data > * + *
+{
+    margin-top: 20px;
+}
+
+
+
+/*--------------------------
+    Efficient production
+--------------------------*/
+.efficient_production
+{
+    color: #fff;
+
+    margin-bottom: 90px;
+    padding: 110px 0 92px;
+
+    background: linear-gradient(119.35deg, #0f0f0f .94%, #151b30 100%);
+}
+
+
+.efficient_production .text_block
+{
+    font-size: 20px;
+    line-height: 161.3%;
+}
+
+.efficient_production .text_block > *
+{
+    margin-bottom: 24px;
+}
+
+
+.efficient_production .row
+{
+    margin-top: 59px;
+    margin-bottom: -30px;
+    margin-left: -30px;
+
+    justify-content: center;
+}
+
+.efficient_production .row > *
+{
+    width: calc(33.333% - 30px);
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+
+.efficient_production .item .thumb
+{
+    position: relative;
+
+    overflow: hidden;
+
+    margin-bottom: 27px;
+    padding-bottom: 62.368%;
+
+    border-radius: 3px;
+    background: #ddd;
+}
+
+.efficient_production .item .thumb img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+
+.efficient_production .item
+{
+    font-size: 20px;
+    line-height: 161.3%;
+
+    text-align: center;
+}
+
+
+
+/*-----------------
+    Best choice
+-----------------*/
+.best_choice
+{
+    margin-bottom: 103px;
+}
+
+.best_choice.bg
+{
+    margin-bottom: 0;
+    padding: 0 0 113px;
+
+    background: #ededed;
+}
+
+
+.best_choice .row
+{
+    margin-top: 59px;
+    margin-bottom: -30px;
+    margin-left: -30px;
+}
+
+.best_choice .row > *
+{
+    width: calc(33.333% - 30px);
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+
+.best_choice .item
+{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+
+    text-align: center;
+}
+
+
+.best_choice .item .icon
+{
+    display: flex;
+
+    width: 61px;
+    height: 61px;
+    margin: 0 auto 21px;
+
+    border-radius: 50%;
+    background: #ae0b05;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.best_choice .item .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.best_choice .item .name
+{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+
+    text-transform: uppercase;
+}
+
+
+.best_choice .item .desc
+{
+    font-size: var(--font_size);
+    font-weight: 400;
+    line-height: 131.5%;
+}
+
+
+
+/*-------------------
+    Brand gallery
+-------------------*/
+.brand_gallery
+{
+    padding: 110px 0 89px;
+
+    background: #ededed;
+}
+
+.brand_gallery.dark
+{
+    color: #fff;
+
+    padding: 79px 0 70px;
+
+    background: linear-gradient(119.35deg, #0f0f0f .94%, #151b30 100%);
+}
+
+
+.brand_gallery .row
+{
+    margin-bottom: -40px;
+    margin-left: -30px;
+}
+
+.brand_gallery .row > *
+{
+    width: calc(50% - 30px);
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+.brand_gallery .row > *.logo
+{
+    width: calc(100% - 30px);
+}
+
+
+.brand_gallery .item
+{
+    color: currentColor;
+
+    display: block;
+
+    text-decoration: none;
+}
+
+
+.brand_gallery .item img
+{
+    display: block;
+
+    width: 100%;
+
+    border-radius: 3px;
+}
+
+
+.brand_gallery .logo img
+{
+    display: block;
+
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+/*-----------------
+    Zoning head
+-----------------*/
+.zoning_head
+{
+    color: #fff;
+
+    position: relative;
+    z-index: 3;
+
+    padding: 199px 0 40px;
+
+    background: #2c2c2c;
+}
+
+.zoning_head:before
+{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, .88) 0%, rgba(0, 0, 0, 0) 43.22%);
+}
+
+.zoning_head:after
+{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+
+    background: linear-gradient(90deg, #101010 0%, rgba(15, 24, 54, .6) 100%);
+}
+
+
+.zoning_head .cont
+{
+    position: relative;
+    z-index: 5;
+}
+
+
+.zoning_head .bg
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+.zoning_head .desc
+{
+    line-height: 154.8%;
+
+    width: 760px;
+    max-width: 100%;
+    margin-top: 27px;
+}
+
+.zoning_head .desc > * + *
+{
+    margin-top: 20px;
+}
+
+
+
+/*------------------------
+    Zoning methodology
+------------------------*/
+.zoning_methodology
+{
+    padding: 58px 0 114px;
+
+    background: #ededed;
+}
+
+
+.zoning_methodology .block_head
+{
+    margin-bottom: 44px;
+}
+
+
+.zoning_methodology .text_block
+{
+    line-height: 133%;
+}
+
+
+.zoning_methodology .data
+{
+    position: relative;
+
+    display: flex;
+
+    height: 315px;
+    margin-top: 93px;
+    padding: 37px;
+
+    border: 15px solid #fff;
+    border-radius: 3px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.zoning_methodology .data .logo
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.zoning_methodology .data .img
+{
+    position: absolute;
+    top: -70px;
+    right: -68px;
+
+    display: block;
+
+    width: 929px;
+    height: 418px;
+
+    pointer-events: none;
+
+    filter: drop-shadow(5px 15px 40px rgba(30, 35, 66, .15));
+}
+
+
+
+/*------------------------
+    Concept advantages
+------------------------*/
+.concept_advantages
+{
+    color: #fff;
+
+    padding: 88px 0;
+
+    background: linear-gradient(119.35deg, #0f0f0f .94%, #151b30 100%);
+}
+
+
+.concept_advantages .row
+{
+    margin-bottom: -30px;
+    margin-left: -30px;
+
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.concept_advantages .row > *
+{
+    width: calc(33.333% - 30px);
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+
+.concept_advantages .item
+{
+    color: #000;
+    line-height: 131.5%;
+
+    padding: 30px;
+
+    border-radius: 3px;
+    background: #fff;
+}
+
+
+.concept_advantages .item .name
+{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+
+.concept_advantages .item .number
+{
+    color: #ae0b05;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 97px;
+
+    margin-right: 20px;
+}
+
+.concept_advantages .item .number + *
+{
+    width: 100%;
+
+    align-self: center;
+}
+
+
+.concept_advantages .item .desc
+{
+    width: 100%;
+    margin-top: 8px;
+}
+
+
+.concept_advantages .img
+{
+    display: block;
+
+    max-width: 100%;
+    margin: 49px auto 0;
+
+    border-radius: 5px;
+}
+
+
+
+/*-------------------
+    Sketch design
+-------------------*/
+.sketch_design
+{
+    padding: 83px 0 72px;
+
+    background: #ededed;
+}
+
+
+.sketch_design .row
+{
+    position: relative;
+
+    padding: 38px 42px 40px;
+
+    border: 15px solid #fff;
+    border-radius: 3px;
+}
+
+
+.sketch_design .img
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -34px;
+
+    display: block;
+
+    width: 658px;
+    height: 345px;
+    margin: auto;
+
+    pointer-events: none;
+}
+
+
+.sketch_design .data
+{
+    color: #000;
+    font-size: 22px;
+    line-height: 140.5%;
+
+    width: 528px;
+    max-width: 100%;
+    margin-left: auto;
+
+    align-self: center;
+}
+
+.sketch_design .data > * + *
+{
+    margin-top: 20px;
+}
+
+
+
+/*----------------
+    About info
+----------------*/
+.about_info
+{
+    margin-bottom: 84px;
+    padding: 0 0 77px;
+
+    background: #ededed;
+}
+
+
+.about_info .block_head
+{
+    margin-bottom: 40px;
+}
+
+
+.about_info .text_block
+{
+    font-size: 20px;
+    line-height: 128%;
+}
+
+
+.about_info .logos
+{
+    margin-top: 36px;
+    padding: 35px;
+
+    border: 15px solid #fff;
+    border-radius: 3px;
+}
+
+
+.about_info .logos img
+{
+    display: block;
+
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+/*----------------------
+    Complex approach
+----------------------*/
+.complex_approach
+{
+    margin-bottom: 81px;
+}
+
+
+.complex_approach .text_block
+{
+    font-size: 20px;
+    line-height: 128%;
+}
+
+
+
+/*----------------------
+    Exclusive brands
+----------------------*/
+.exclusive_brands
+{
+    margin-bottom: 86px;
+    padding: 69px 0 79px;
+
+    background: #ededed;
+}
+
+
+.exclusive_brands .text_block
+{
+    font-size: 20px;
+    line-height: 128%;
+}
+
+
+.exclusive_brands .data
+{
+    display: flex;
+
+    margin-top: 35px;
+    padding: 25px 40px;
+
+    border: 15px solid #fff;
+    border-radius: 3px;
+
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.exclusive_brands .data img
+{
+    display: block;
+
+    width: 499px;
+    max-width: 100%;
+}
+
+
+.exclusive_brands .data .text_block
+{
+    width: 529px;
+    max-width: 100%;
+    margin-left: auto;
+}
+
+
+
+/*------------------------
+    Unique competences
+------------------------*/
+.unique_competences
+{
+    margin-bottom: 91px;
+}
+
+
+.unique_competences .text_block
+{
+    font-size: 20px;
+    line-height: 128%;
+}
+
+
+.unique_competences .data
+{
+    display: flex;
+
+    margin-top: 18px;
+    padding: 32px 40px;
+
+    border: 15px solid #ededed;
+    border-radius: 3px;
+
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.unique_competences .data + *
+{
+    margin-top: 37px;
+}
+
+
+.unique_competences .data img
+{
+    display: block;
+
+    width: 267px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.unique_competences .data .text_block
+{
+    width: 722px;
+    max-width: 100%;
+}
+
+
+
+/*-------------------
+    Sport support
+-------------------*/
+.sport_support
+{
+    padding: 86px 0 98px;
+
+    background: #ededed;
+}
+
+
+.sport_support .block_head
+{
+    margin-bottom: 40px;
+}
+
+
+.sport_support .section + .section
+{
+    margin-top: 56px;
+}
+
+
+.sport_support .block_title
+{
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 150%;
+
+    margin-bottom: 15px;
+
+    text-transform: uppercase;
+}
+
+
+.sport_support .block_title + .text_block
+{
+    margin-bottom: 32px;
+}
+
+
+.sport_support .data
+{
+    position: relative;
+
+    padding: 45px 38px 39px;
+
+    border: 15px solid #fff;
+    border-radius: 3px;
+}
+
+.sport_support .data + .data
+{
+    margin-top: 62px;
+}
+
+
+.sport_support .data .img
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+    display: block;
+
+    margin: auto;
+
+    pointer-events: none;
+}
+
+.sport_support .data .img1
+{
+    top: 24px;
+    left: 16px;
+
+    width: 584px;
+    height: 389px;
+
+    filter: drop-shadow(0px 4px 13px rgba(30, 35, 66, .11));
+}
+
+.sport_support .data .img2
+{
+    right: 6px;
+
+    width: 711px;
+    height: 318px;
+}
+
+.sport_support .data .img3
+{
+    right: 6px;
+
+    width: 509px;
+    height: 347px;
+}
+
+.sport_support .data .img4
+{
+    left: 9px;
+
+    width: 582px;
+    height: 331px;
+}
+
+
+.sport_support .logos
+{
+    position: relative;
+
+    padding: 16px;
+
+    border: 15px solid #fff;
+    border-radius: 3px;
+}
+
+.sport_support .logos img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.sport_support .text_block
+{
+    color: #000;
+    font-size: 20px;
+    line-height: 128%;
+
+    max-width: 100%;
+
+    text-align: justify;
+}
+
+.sport_support .text_block1
+{
+    width: 444px;
+    margin-left: auto;
+}
+
+.sport_support .text_block2
+{
+    width: 537px;
+    padding-top: 8px;
+    padding-bottom: 109px;
+}
+
+.sport_support .text_block3
+{
+    width: 527px;
+    padding-top: 16px;
+    padding-bottom: 36px;
+
+    text-align: center;
+}
+
+.sport_support .text_block4
+{
+    width: 472px;
+    margin-left: auto;
+    padding-top: 31px;
+    padding-bottom: 36px;
+
+    text-align: center;
+}
+
+
+.sport_support .fbbr_logo
+{
+    max-width: 100%;
+    margin: 0 auto 21px;
+}
+
+
+
 /*------------
     Footer
 ------------*/
@@ -5566,4 +7007,57 @@ header .level-2 > a.active:after
 .block_head_new .page_title
 {
     margin-top: 0;
+}
+
+
+
+
+@media print,
+(max-width: 1439px)
+{
+    /*----------------
+        Brand head
+    ----------------*/
+    .brand_head .cont
+    {
+        padding-top: 240px;
+        padding-bottom: 80px;
+    }
+
+
+    .brand_head .data
+    {
+        width: 440px;
+    }
+
+
+    .brand_head .logo
+    {
+        margin-bottom: 28px;
+    }
+
+    .brand_head .logo div
+    {
+        padding-bottom: 28px;
+    }
+
+    .brand_head .logo img
+    {
+        max-height: 100px;
+    }
+
+
+    .brand_head .title
+    {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+
+    .brand_head .btn
+    {
+        width: 240px;
+        height: 60px;
+        margin-top: 48px;
+    }
 }

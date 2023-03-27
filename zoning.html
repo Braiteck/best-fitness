@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#AE0B05">
+		<meta name="theme-color" content="#AE0B05">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1247.css" media="print, (max-width: 1247px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header class="absolute">
+					<button class="mob_close_btn"></button>
+
+					<div class="scroll">
+						<div class="data">
+							<div class="cont row">
+								<a href="/" class="logo">
+									<img src="images/logo.svg" alt="">
+								</a>
+
+								<div class="contacts">
+									<div class="phone">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+										<a href="tel:+74957988081">+7 (495) 798-80-81</a>
+									</div>
+
+									<div class="email">
+										<a href="mailto:sales@bestinfitness.ru">sales@bestinfitness.ru</a>
+									</div>
+								</div>
+
+								<button class="callback_btn modal_btn" data-modal="#callback_modal">Заказать звонок</button>
+
+								<a href="/" class="specification_link">Спецификация</a>
+
+								<div class="search modal_cont">
+									<button class="btn mini_modal_btn" data-modal-id="search_modal">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+									</button>
+
+									<div class="mini_modal" id="search_modal">
+										<form action="">
+											<input type="text" name="" value="" class="input" placeholder="Поиск по сайту">
+
+											<button type="submit" class="submit_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+											</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="bottom">
+							<div class="cont">
+								<nav class="menu row">
+									<div class="menu_item">
+										<a href="/">О нас</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/" class="sub_link">Каталог</a>
+
+										<div class="sub_menu">
+											<div>
+												<a href="#" class="sub_link">
+													<span>Кардио</span>
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+												</a>
+
+												<div class="sub_menu level3">
+													<div><a href="/">Беговые дорожки</a></div>
+													<div><a href="/">Эллиптические кросс-тренажеры</a></div>
+													<div><a href="/">Вертикальные велотренажеры</a></div>
+													<div><a href="/">Горизонтальные велотренажеры</a></div>
+													<div><a href="/">Тренажеры подъема по ступеням</a></div>
+													<div><a href="/">Степперы</a></div>
+												</div>
+											</div>
+
+											<div>
+												<a href="#" class="sub_link">
+													<span>Силовые тренажеры</span>
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+												</a>
+
+												<div class="sub_menu level3">
+													<div><a href="/">Беговые дорожки</a></div>
+													<div><a href="/">Эллиптические кросс-тренажеры</a></div>
+													<div><a href="/">Вертикальные велотренажеры</a></div>
+													<div><a href="/">Горизонтальные велотренажеры</a></div>
+													<div><a href="/">Тренажеры подъема по ступеням</a></div>
+													<div><a href="/">Степперы</a></div>
+												</div>
+											</div>
+
+											<div>
+												<a href="#" class="sub_link">
+													<span>Уникальные продукты</span>
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+												</a>
+
+												<div class="sub_menu level3">
+													<div><a href="/">Беговые дорожки</a></div>
+													<div><a href="/">Эллиптические кросс-тренажеры</a></div>
+													<div><a href="/">Вертикальные велотренажеры</a></div>
+													<div><a href="/">Горизонтальные велотренажеры</a></div>
+													<div><a href="/">Тренажеры подъема по ступеням</a></div>
+													<div><a href="/">Степперы</a></div>
+												</div>
+											</div>
+
+											<div>
+												<a href="#" class="sub_link">
+													<span>Функциональный тренинг</span>
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+												</a>
+
+												<div class="sub_menu level3">
+													<div><a href="/">Беговые дорожки</a></div>
+													<div><a href="/">Эллиптические кросс-тренажеры</a></div>
+													<div><a href="/">Вертикальные велотренажеры</a></div>
+													<div><a href="/">Горизонтальные велотренажеры</a></div>
+													<div><a href="/">Тренажеры подъема по ступеням</a></div>
+													<div><a href="/">Степперы</a></div>
+												</div>
+											</div>
+
+											<div>
+												<a href="#" class="sub_link">
+													<span>Механическое кардио</span>
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+												</a>
+
+												<div class="sub_menu level3">
+													<div><a href="/">Беговые дорожки</a></div>
+													<div><a href="/">Эллиптические кросс-тренажеры</a></div>
+													<div><a href="/">Вертикальные велотренажеры</a></div>
+													<div><a href="/">Горизонтальные велотренажеры</a></div>
+													<div><a href="/">Тренажеры подъема по ступеням</a></div>
+													<div><a href="/">Степперы</a></div>
+												</div>
+											</div>
+
+											<div>
+												<a href="#" class="sub_link">
+													<span>Свободные веса</span>
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+												</a>
+
+												<div class="sub_menu level3">
+													<div><a href="/">Беговые дорожки</a></div>
+													<div><a href="/">Эллиптические кросс-тренажеры</a></div>
+													<div><a href="/">Вертикальные велотренажеры</a></div>
+													<div><a href="/">Горизонтальные велотренажеры</a></div>
+													<div><a href="/">Тренажеры подъема по ступеням</a></div>
+													<div><a href="/">Степперы</a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Бренды</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Зонирование</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Проекты</a>
+									</div>
+
+									<div class="menu_item">
+										<a href="/">Контакты</a>
+									</div>
+								</nav>
+
+
+								<div class="mob_menu">
+									<div class="links">
+										<div><a href="/">
+											<span>О нас</span>
+										</a></div>
+
+										<div><a href="/" class="catalog_link" data-sub="sub2">
+											<span>Каталог</span>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+										</a></div>
+
+										<div><a href="/">
+											<span>Бренды</span>
+										</a></div>
+
+										<div><a href="/">
+											<span>Зонирование</span>
+										</a></div>
+
+										<div><a href="/">
+											<span>Проекты</span>
+										</a></div>
+
+										<div><a href="/">
+											<span>Контакты</span>
+										</a></div>
+									</div>
+
+
+									<div class="links step sub2">
+										<div class="back">
+											<button class="btn">Назад</button>
+										</div>
+
+										<div><a href="/" class="catalog_link" data-sub="sub2_1">
+											<span>Кардио</span>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+										</a></div>
+
+										<div><a href="/" class="catalog_link" data-sub="sub2_2">
+											<span>Силовые тренажеры</span>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+										</a></div>
+
+										<div><a href="/" class="catalog_link" data-sub="sub2_3">
+											<span>Уникальные продукты</span>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+										</a></div>
+
+										<div><a href="/" class="catalog_link" data-sub="sub2_4">
+											<span>Функциональный тренинг</span>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+										</a></div>
+
+										<div><a href="/" class="catalog_link" data-sub="sub2_5">
+											<span>Механическое кардио</span>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+										</a></div>
+
+										<div><a href="/" class="catalog_link" data-sub="sub2_6">
+											<span>Свободные веса</span>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+										</a></div>
+									</div>
+
+
+									<div class="links step sub2_1">
+										<div class="back">
+											<button class="btn">Назад</button>
+										</div>
+
+										<div><a href="/">Беговые дорожки</a></div>
+										<div><a href="/">Эллиптические кросс-тренажеры</a></div>
+										<div><a href="/">Вертикальные велотренажеры</a></div>
+										<div><a href="/">Горизонтальные велотренажеры</a></div>
+										<div><a href="/">Тренажеры подъема по ступеням</a></div>
+										<div><a href="/">Степперы</a></div>
+									</div>
+
+									<div class="links step sub2_2">
+										<div class="back">
+											<button class="btn">Назад</button>
+										</div>
+
+										<div><a href="/">Беговые дорожки</a></div>
+										<div><a href="/">Эллиптические кросс-тренажеры</a></div>
+										<div><a href="/">Вертикальные велотренажеры</a></div>
+										<div><a href="/">Горизонтальные велотренажеры</a></div>
+										<div><a href="/">Тренажеры подъема по ступеням</a></div>
+										<div><a href="/">Степперы</a></div>
+									</div>
+
+									<div class="links step sub2_3">
+										<div class="back">
+											<button class="btn">Назад</button>
+										</div>
+
+										<div><a href="/">Беговые дорожки</a></div>
+										<div><a href="/">Эллиптические кросс-тренажеры</a></div>
+										<div><a href="/">Вертикальные велотренажеры</a></div>
+										<div><a href="/">Горизонтальные велотренажеры</a></div>
+										<div><a href="/">Тренажеры подъема по ступеням</a></div>
+										<div><a href="/">Степперы</a></div>
+									</div>
+
+									<div class="links step sub2_4">
+										<div class="back">
+											<button class="btn">Назад</button>
+										</div>
+
+										<div><a href="/">Беговые дорожки</a></div>
+										<div><a href="/">Эллиптические кросс-тренажеры</a></div>
+										<div><a href="/">Вертикальные велотренажеры</a></div>
+										<div><a href="/">Горизонтальные велотренажеры</a></div>
+										<div><a href="/">Тренажеры подъема по ступеням</a></div>
+										<div><a href="/">Степперы</a></div>
+									</div>
+
+									<div class="links step sub2_5">
+										<div class="back">
+											<button class="btn">Назад</button>
+										</div>
+
+										<div><a href="/">Беговые дорожки</a></div>
+										<div><a href="/">Эллиптические кросс-тренажеры</a></div>
+										<div><a href="/">Вертикальные велотренажеры</a></div>
+										<div><a href="/">Горизонтальные велотренажеры</a></div>
+										<div><a href="/">Тренажеры подъема по ступеням</a></div>
+										<div><a href="/">Степперы</a></div>
+									</div>
+
+									<div class="links step sub2_6">
+										<div class="back">
+											<button class="btn">Назад</button>
+										</div>
+
+										<div><a href="/">Беговые дорожки</a></div>
+										<div><a href="/">Эллиптические кросс-тренажеры</a></div>
+										<div><a href="/">Вертикальные велотренажеры</a></div>
+										<div><a href="/">Горизонтальные велотренажеры</a></div>
+										<div><a href="/">Тренажеры подъема по ступеням</a></div>
+										<div><a href="/">Степперы</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont row">
+						<a href="/" class="logo">
+							<img src="images/logo.svg" alt="">
+						</a>
+
+						<div class="contacts">
+							<div class="phone">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+								<a href="tel:+74957988081">+7 (495) 798-80-81</a>
+							</div>
+
+							<div class="email">
+								<a href="mailto:sales@bestinfitness.ru">sales@bestinfitness.ru</a>
+							</div>
+						</div>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+
+						<div class="search">
+							<form action="">
+								<input type="text" name="" value="" class="input" placeholder="Поиск по сайту">
+
+								<button type="submit" class="submit_btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+								</button>
+							</form>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="zoning_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep">/</span>
+							<span class="current">Зонирование</span>
+						</div>
+
+						<h1 class="page_title">Зонирование</h1>
+
+						<div class="desc">
+							<p>Важными инструментами оптимизации расходов на проектирование, строительство и оснащение фитнес-клуба являются грамотно разработанные: эскизный проект клуба, зонирование тренажерного зала и схема расстановки оборудования.</p>
+
+							<p>Создание оптимального функционального зонирования пространства для каждого фитнес-клуба - уникальная компетенция нашей компании.</p>
+						</div>
+					</div>
+
+					<img data-src="images/tmp/zoning_head_img.jpg" alt="" class="bg lazyload">
+				</section>
+
+
+				<section class="zoning_methodology">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">МЕТОДИКА<br> ЗОНИРОВАНИЯ GYM EVOLUTION™</div>
+						</div>
+
+						<div class="text_block">
+							<p>Gym Evolution - это концепция подбора и расстановки тренажеров, эффективно оптимизирующая пространство тренажерного зала путем выделения в нем отдельных тренировочных зон, ориентированных на потребности различных групп клиентов.</p>
+
+							<p>Тренажерные залы, спроектированные по методике Gym Evolution - это стильные, функциональные и удобные для каждого тренировочные пространства с уникальным дизайном, выгодно отличающим их от конкурентов.</p>
+						</div>
+
+						<div class="data">
+							<img data-src="images/tmp/zoning_methodology_logo.png" alt="" class="logo lazyload">
+							<img data-src="images/tmp/zoning_methodology_img.png" alt="" class="img lazyload">
+						</div>
+					</div>
+				</section>
+
+
+				<section class="concept_advantages">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">ПРЕИМУЩЕСТВА КОНЦЕПЦИИ<br> GYM EVOLUTION™</div>
+						</div>
+
+						<div class="row">
+							<div class="item">
+								<div class="name">
+									<div class="number">01</div>
+									<div>Комфорт для<br> всех</div>
+								</div>
+
+								<div class="desc">Создает комфортные условия для тренировки всех типов пользователей – от новичков до профессионалов - и увеличивает лояльность клиентов.</div>
+							</div>
+
+							<div class="item">
+								<div class="name">
+									<div class="number">02</div>
+									<div>Повышение проходимости зала</div>
+								</div>
+
+								<div class="desc">Позволяет максимально эффективно использовать имеющуюся площадь и расставлять оборудование так, чтобы равномерно распределить поток клиентов даже в пиковые часы</div>
+							</div>
+
+							<div class="item">
+								<div class="name">
+									<div class="number">03</div>
+									<div>Эффектный дизайн</div>
+								</div>
+
+								<div class="desc">Позволяет эффектно оформить зал и выгодно выделить его на фоне конкурентов.</div>
+							</div>
+						</div>
+
+						<img src="images/tmp/concept_advantages_img.jpg" alt="" class="img">
+					</div>
+				</section>
+
+
+				<section class="sketch_design">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">ЭСКИЗНОЕ<br> ПРОЕКТИРОВАНИЕ ФИТНЕС-КЛУБОВ</div>
+						</div>
+
+						<div class="row">
+							<img data-src="images/tmp/sketch_design_img.png" alt="" class="img lazyload">
+
+							<div class="data">
+								<p>Основной задачей разработки эскизного проекта фитнес-клуба является ПРАВИЛЬНОЕ определение ценового сегмента клуба и его пропускной способности.</p>
+
+								<p>Неверные проектные решения и неэффективно спланированные помещения ограничивают пропускную способность клуба, снижают лояльность клиентов и неизбежно приводят к убыткам.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="best_choice bg">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">ГРАМОТНЫЙ ЭСКИЗНЫЙ ПРОЕКТ</div>
+						</div>
+
+						<div class="row">
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_best_choice.svg" alt="" class="lazyload">
+								</div>
+
+								<div>
+									<div class="name">ПОЗВОЛЯЕТ ПРАВИЛЬНО ОПРЕДЕЛИТЬ</div>
+
+									<div class="desc">ценовой сегмент фитнес клуба и его пропускную способность</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_best_choice.svg" alt="" class="lazyload">
+								</div>
+
+								<div>
+									<div class="name">ПОМОГАЕТ ИЗБЕЖАТЬ</div>
+
+									<div class="desc">просчетов в выборе концепции</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_best_choice.svg" alt="" class="lazyload">
+								</div>
+
+								<div>
+									<div class="name">ЗАЩИЩАЕТ ОТ ОШИБОК</div>
+
+									<div class="desc">в проектировании, влияющих на коммерческую эффективность фитнес-клуба</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="data">
+						<div class="logo">
+							<img src="images/logo.svg" alt="">
+						</div>
+
+						<div class="location">г. Москва, Варшавское шоссе, дом 42, офис 438 (Бизнес-парк «Полином»)</div>
+
+						<div class="phone">
+							<a href="tel:+7 (495) 798-80-81">+7 (495) 798-80-81</a>
+						</div>
+
+						<div class="email">
+							<a href="mailto:sales@bestinfitness.ru">sales@bestinfitness.ru</a>
+						</div>
+					</div>
+
+					<div class="menu">
+						<div><a href="/">О нас</a></div>
+						<div><a href="/">Каталог</a></div>
+						<div><a href="/">Бренды</a></div>
+						<div><a href="/">Зонирование</a></div>
+						<div><a href="/">Проекты</a></div>
+						<div><a href="/">Контакты</a></div>
+					</div>
+
+					<div class="col_right">
+						<div class="contacts">
+							<div class="phone">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+								<a href="tel:+74957988081">+7 (495) 798-80-81</a>
+							</div>
+
+							<div class="email">
+								<a href="mailto:sales@bestinfitness.ru">sales@bestinfitness.ru</a>
+							</div>
+						</div>
+
+						<button class="callback_btn modal_btn" data-modal="#callback_modal">Заказать звонок</button>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow" class="fb_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_fb"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="twitter_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_twitter"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="youtube_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="whatsapp_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="vk_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vk"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="telegram_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="viber_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_viber"></use></svg>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<img data-src="images/tmp/bg_footer.jpg" alt="" class="bg lazyload">
+			</footer>
+
+
+			<div class="buttonUp">
+				<button class="btn">
+					<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+				</button>
+			</div>
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="js/imask.js"></script>
+		<script src="js/select.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

@@ -320,6 +320,13 @@
     /*----------------
         Block head
     ----------------*/
+    .block_head .title
+    {
+        line-height: calc(100% + 8px);
+    }
+
+
+
     .block_head .all_link
     {
         display: none;
@@ -985,6 +992,606 @@
     .product_data .features .val
     {
         width: 100%;
+    }
+
+
+
+    /*----------------
+        Brand head
+    ----------------*/
+    .brand_head .cont
+    {
+        height: auto;
+        min-height: 0;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+
+    .brand_head .data
+    {
+        width: 100%;
+    }
+
+
+    .brand_head .logo
+    {
+        margin-bottom: 24px;
+    }
+
+    .brand_head .logo div
+    {
+        padding-bottom: 24px;
+    }
+
+    .brand_head .logo img
+    {
+        max-height: 72px;
+    }
+
+
+    .brand_head .title
+    {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+
+    .brand_head .btn
+    {
+        width: 220px;
+        height: 56px;
+        margin-top: 40px;
+    }
+
+
+
+    /*---------------------
+        Top brand level
+    ---------------------*/
+    .top_brand_level
+    {
+        padding: 60px 0;
+    }
+
+
+    .top_brand_level .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .top_brand_level .item
+    {
+        font-size: 15px;
+    }
+
+
+    .top_brand_level .item .icon
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+
+
+    /*----------------
+        Brand info
+    ----------------*/
+    .brand_info
+    {
+        padding: 60px 0;
+    }
+
+
+    .brand_info .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*---------------------
+        Train naturally
+    ---------------------*/
+    .train_naturally
+    {
+        padding: 60px 0;
+    }
+
+
+    .train_naturally .image
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        padding-bottom: 66.666%;
+
+        order: 1;
+    }
+
+
+    .train_naturally .data,
+    .train_naturally2 .data
+    {
+        font-size: 15px;
+
+        width: 100%;
+
+        order: 2;
+    }
+
+
+    .train_naturally .data li:before
+    {
+        top: 8px;
+    }
+
+
+
+    /*----------------------
+        Created athletes
+    ----------------------*/
+    .created_athletes .image
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        padding-bottom: 110%;
+    }
+
+
+    .created_athletes .data
+    {
+        font-size: 15px;
+
+        width: 100%;
+    }
+
+
+
+    /*--------------------------
+        Efficient production
+    --------------------------*/
+    .efficient_production
+    {
+        padding: 60px 0;
+    }
+
+
+    .efficient_production .text_block,
+    .efficient_production .item
+    {
+        font-size: 15px;
+    }
+
+
+    .efficient_production .row > *
+    {
+        width: calc(50% - 30px);
+    }
+
+
+
+    /*-----------------
+        Best choice
+    -----------------*/
+    .best_choice
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .best_choice .row
+    {
+        margin-top: 40px;
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+    .best_choice .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .best_choice .item
+    {
+        display: flex;
+
+        text-align: left;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+
+    .best_choice .item .icon
+    {
+        width: 52px;
+        height: 52px;
+        margin: 0;
+    }
+
+    .best_choice .item .icon img
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+    .best_choice .item .icon + *
+    {
+        width: calc(100% - 76px);
+
+        align-self: center;
+    }
+
+
+
+    /*-------------------
+        Brand gallery
+    -------------------*/
+    .brand_gallery,
+    .brand_gallery.dark
+    {
+        padding: 60px 0;
+    }
+
+
+    .brand_gallery .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .brand_gallery .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+    .brand_gallery .row > *.logo
+    {
+        width: calc(100% - 12px);
+    }
+
+
+    .brand_gallery .logo
+    {
+        padding: 12px 0;
+    }
+
+    .brand_gallery .logo img
+    {
+        max-height: 60px;
+    }
+
+
+
+    /*-----------------
+        Zoning head
+    -----------------*/
+    .zoning_head
+    {
+        padding: 40px 0;
+    }
+
+
+    .zoning_head .desc
+    {
+        line-height: 150%;
+
+        margin-top: 24px;
+    }
+
+
+
+    /*------------------------
+        Zoning methodology
+    ------------------------*/
+    .zoning_methodology
+    {
+        padding: 60px 0;
+    }
+
+
+    .zoning_methodology .data
+    {
+        height: auto;
+        padding-bottom: 180px;
+    }
+
+
+    .zoning_methodology .data .logo
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .zoning_methodology .data .img
+    {
+        top: auto;
+        right: 0;
+        bottom: -32px;
+        left: 0;
+
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+
+
+    /*------------------------
+        Concept advantages
+    ------------------------*/
+    .concept_advantages
+    {
+        padding: 60px 0;
+    }
+
+
+    .concept_advantages .row
+    {
+        margin-left: 0;
+    }
+
+    .concept_advantages .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .concept_advantages .item .number
+    {
+        font-size: 52px;
+        line-height: 100%;
+
+        margin-right: 20px;
+    }
+
+
+    .concept_advantages .img
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------------
+        Sketch design
+    -------------------*/
+    .sketch_design
+    {
+        padding: 60px 0;
+    }
+
+
+    .sketch_design .img
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        width: 90%;
+        margin: 0 auto 24px;
+    }
+
+
+    .sketch_design .data
+    {
+        font-size: 15px;
+
+        width: 100%;
+    }
+
+
+    .sketch_design .data > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        margin-bottom: 60px;
+        padding: 0 0 60px;
+    }
+
+
+    .about_info .text_block
+    {
+        font-size: 15px;
+    }
+
+
+    .about_info .logos
+    {
+        margin-top: 24px;
+        padding: 10px;
+    }
+
+
+
+    /*----------------------
+        Complex approach
+    ----------------------*/
+    .complex_approach
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .complex_approach .text_block
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*----------------------
+        Exclusive brands
+    ----------------------*/
+    .exclusive_brands
+    {
+        margin-bottom: 60px;
+        padding: 60px 0;
+    }
+
+
+    .exclusive_brands .text_block
+    {
+        font-size: 15px;
+    }
+
+
+    .exclusive_brands .data
+    {
+        padding: 20px;
+    }
+
+
+    .exclusive_brands .data img
+    {
+        width: 320px;
+    }
+
+
+
+    /*------------------------
+        Unique competences
+    ------------------------*/
+    .unique_competences
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .unique_competences .text_block
+    {
+        font-size: 15px;
+    }
+
+
+    .unique_competences .data
+    {
+        padding: 20px;
+    }
+
+    .unique_competences .data .text_block
+    {
+        width: 100%;
+
+        order: 2;
+    }
+
+
+    .unique_competences .data img
+    {
+        width: 148px;
+        margin: 0 auto 20px;
+
+        order: 1;
+    }
+
+
+
+    /*-------------------
+        Sport support
+    -------------------*/
+    .sport_support
+    {
+        padding: 60px 0;
+    }
+
+
+    .sport_support .block_title
+    {
+        font-size: 24px;
+    }
+
+
+    .sport_support .data
+    {
+        padding: 20px;
+    }
+
+
+    .sport_support .logos
+    {
+        padding: 10px;
+    }
+
+
+    .sport_support .data .img
+    {
+        position: relative;
+
+        max-width: 100%;
+        margin: 0 auto 24px;
+
+        order: 1;
+    }
+
+    .sport_support .data .img1
+    {
+        width: 100%;
+    }
+
+    .sport_support .data .img2
+    {
+        top: 0;
+        bottom: 0;
+
+        width: 100%;
+    }
+
+    .sport_support .data .img3
+    {
+        right: 0;
+
+        width: 100%;
+    }
+
+    .sport_support .data .img4
+    {
+        left: 0;
+
+        width: 100%;
+    }
+
+
+    .sport_support .text_block
+    {
+        font-size: 15px;
+    }
+
+    .sport_support .text_block1,
+    .sport_support .text_block2,
+    .sport_support .text_block3,
+    .sport_support .text_block4
+    {
+        width: 100%;
+        padding: 0;
+
+        order: 2;
+    }
+
+
+    .sport_support .fbbr_logo
+    {
+        height: 64px;
     }
 
 

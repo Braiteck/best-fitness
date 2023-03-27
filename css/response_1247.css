@@ -255,6 +255,15 @@
     }
 
 
+    .block_head .desc
+    {
+        font-size: 17px;
+        line-height: 150%;
+
+        margin-top: 20px;
+    }
+
+
 
     /*------------------
         Form elements
@@ -1109,6 +1118,699 @@
     {
         height: 440px;
         margin-top: 48px;
+    }
+
+
+
+    /*----------------
+        Brand head
+    ----------------*/
+    .brand_head .data
+    {
+        width: 400px;
+    }
+
+
+    .brand_head .btn
+    {
+        width: 224px;
+        height: 60px;
+        margin-top: 40px;
+    }
+
+
+
+    /*---------------------
+        Top brand level
+    ---------------------*/
+    .top_brand_level
+    {
+        padding: 72px 0;
+    }
+
+
+    .top_brand_level .row
+    {
+        margin-bottom: -40px;
+        margin-left: -24px;
+    }
+
+    .top_brand_level .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 40px;
+        margin-left: 24px;
+    }
+
+
+    .top_brand_level .item
+    {
+        font-size: 17px;
+        line-height: 150%;
+    }
+
+
+    .top_brand_level .item .icon
+    {
+        width: 92px;
+        height: 92px;
+        margin-bottom: 24px;
+        padding: 12px;
+    }
+
+
+
+    /*----------------
+        Brand info
+    ----------------*/
+    .brand_info,
+    .brand_info.dark
+    {
+        padding: 72px 0;
+    }
+
+
+    .brand_info .row
+    {
+        margin-bottom: -40px;
+        margin-left: -24px;
+    }
+
+    .brand_info .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 40px;
+        margin-left: 24px;
+    }
+
+
+    .brand_info .item .thumb
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .brand_info .item .name
+    {
+        font-size: 17px;
+        line-height: 150%;
+
+        margin-bottom: 8px;
+    }
+
+
+    .brand_info .item .desc
+    {
+        font-size: 15px;
+        line-height: 140%;
+    }
+
+
+
+    /*---------------------
+        Train naturally
+    ---------------------*/
+    .train_naturally
+    {
+        padding: 72px 0;
+    }
+
+
+    .train_naturally .image
+    {
+        width: calc(100% - 404px);
+    }
+
+
+    .train_naturally .data
+    {
+        font-size: 17px;
+        line-height: 150%;
+
+        width: 380px;
+        padding: 40px;
+
+        border-width: 12px;
+    }
+
+    .train_naturally2 .data
+    {
+        padding: 24px;
+    }
+
+
+    .train_naturally .data li:before
+    {
+        top: 10px;
+    }
+
+
+
+    /*----------------------
+        Created athletes
+    ----------------------*/
+    .created_athletes
+    {
+        padding: 72px 0;
+    }
+
+
+    .created_athletes .image
+    {
+        width: calc(100% - 544px);
+    }
+
+
+    .created_athletes .data
+    {
+        font-size: 17px;
+        line-height: 150%;
+
+        width: 520px;
+    }
+
+
+    .created_athletes .data > *
+    {
+        padding: 24px;
+
+        border-width: 12px;
+    }
+
+
+
+    /*--------------------------
+        Efficient production
+    --------------------------*/
+    .efficient_production
+    {
+        margin-bottom: 72px;
+        padding: 72px 0;
+    }
+
+
+    .efficient_production .text_block
+    {
+        font-size: 17px;
+        line-height: 150%;
+    }
+
+
+    .efficient_production .row
+    {
+        margin-top: 48px;
+        margin-bottom: -40px;
+        margin-left: -24px;
+    }
+
+    .efficient_production .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 40px;
+        margin-left: 24px;
+    }
+
+
+    .efficient_production .item
+    {
+        font-size: 17px;
+        line-height: 150%;
+    }
+
+
+    .efficient_production .item .thumb
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*-----------------
+        Best choice
+    -----------------*/
+    .best_choice
+    {
+        margin-bottom: 72px;
+    }
+
+    .best_choice.bg
+    {
+        padding: 0 0 72px;
+    }
+
+
+    .best_choice .row
+    {
+        margin-top: 48px;
+        margin-bottom: -40px;
+        margin-left: -24px;
+    }
+
+    .best_choice .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 40px;
+        margin-left: 24px;
+    }
+
+
+    .best_choice .item
+    {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+
+    .best_choice .item .name
+    {
+        font-size: 17px;
+        line-height: 140%;
+
+        margin-bottom: 8px;
+    }
+
+
+    .best_choice .item .icon
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+
+
+    /*-------------------
+        Brand gallery
+    -------------------*/
+    .brand_gallery,
+    .brand_gallery.dark
+    {
+        padding: 72px 0;
+    }
+
+
+    .brand_gallery .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .brand_gallery .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+    .brand_gallery .row > *.logo
+    {
+        width: calc(100% - 24px);
+    }
+
+
+
+    /*------------------------
+        Zoning methodology
+    ------------------------*/
+    .zoning_methodology
+    {
+        padding: 72px 0;
+    }
+
+
+    .zoning_methodology .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .zoning_methodology .text_block
+    {
+        line-height: 140%;
+    }
+
+
+    .zoning_methodology .data
+    {
+        height: 280px;
+        margin-top: 72px;
+        padding: 24px;
+
+        border-width: 12px;
+    }
+
+
+    .zoning_methodology .data .logo
+    {
+        width: 180px;
+    }
+
+
+    .zoning_methodology .data .img
+    {
+        top: -40px;
+        right: -48px;
+
+        width: 740px;
+        height: 333px;
+    }
+
+
+
+    /*------------------------
+        Concept advantages
+    ------------------------*/
+    .concept_advantages
+    {
+        padding: 72px 0;
+    }
+
+
+    .concept_advantages .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .concept_advantages .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .concept_advantages .item
+    {
+        line-height: 140%;
+
+        padding: 24px;
+    }
+
+
+    .concept_advantages .item .name
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+    .concept_advantages .item .number
+    {
+        font-size: 60px;
+        line-height: 72px;
+
+        margin-right: 16px;
+    }
+
+
+    .concept_advantages .img
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*-------------------
+        Sketch design
+    -------------------*/
+    .sketch_design
+    {
+        padding: 72px 0;
+    }
+
+
+    .sketch_design .row
+    {
+        padding: 40px;
+
+        border-width: 12px;
+    }
+
+
+    .sketch_design .img
+    {
+        left: -32px;
+
+        width: 520px;
+        height: auto;
+    }
+
+
+    .sketch_design .data
+    {
+        font-size: 18px;
+        line-height: 140%;
+
+        width: 448px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        margin-bottom: 72px;
+        padding: 0 0 72px;
+    }
+
+
+    .about_info .text_block
+    {
+        font-size: 17px;
+        line-height: 150%;
+    }
+
+
+    .about_info .logos
+    {
+        margin-top: 40px;
+        padding: 24px;
+
+        border-width: 12px;
+    }
+
+
+
+    /*----------------------
+        Complex approach
+    ----------------------*/
+    .complex_approach
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .complex_approach .text_block
+    {
+        font-size: 17px;
+        line-height: 150%;
+    }
+
+
+
+    /*----------------------
+        Exclusive brands
+    ----------------------*/
+    .exclusive_brands
+    {
+        margin-bottom: 72px;
+        padding: 72px 0;
+    }
+
+
+    .exclusive_brands .text_block
+    {
+        font-size: 17px;
+        line-height: 150%;
+    }
+
+
+    .exclusive_brands .data
+    {
+        margin-top: 40px;
+        padding: 24px;
+
+        border-width: 12px;
+    }
+
+
+    .exclusive_brands .data img
+    {
+        width: calc(100% - 520px);
+    }
+
+
+    .exclusive_brands .data .text_block
+    {
+        width: 480px;
+    }
+
+
+
+    /*------------------------
+        Unique competences
+    ------------------------*/
+    .unique_competences
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .unique_competences .text_block
+    {
+        font-size: 17px;
+        line-height: 150%;
+    }
+
+
+    .unique_competences .data
+    {
+        margin-top: 24px;
+        padding: 24px;
+
+        border-width: 12px;
+    }
+
+    .unique_competences .data + *
+    {
+        margin-top: 32px;
+    }
+
+
+    .unique_competences .data .text_block
+    {
+        width: calc(100% - 220px);
+    }
+
+
+    .unique_competences .data img
+    {
+        width: 180px;
+        margin-right: 0;
+    }
+
+
+
+    /*-------------------
+        Sport support
+    -------------------*/
+    .sport_support
+    {
+        padding: 72px 0;
+    }
+
+
+    .sport_support .section + .section
+    {
+        margin-top: 40px;
+    }
+
+
+    .sport_support .block_title
+    {
+        font-size: 30px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .sport_support .data
+    {
+        padding: 24px;
+
+        border-width: 12px;
+    }
+
+    .sport_support .data + .data
+    {
+        margin-top: 40px;
+    }
+
+
+    .sport_support .logos
+    {
+        border-width: 12px;
+    }
+
+
+    .sport_support .data .img1
+    {
+        top: 0;
+        left: 24px;
+
+        width: 480px;
+        height: auto;
+    }
+
+    .sport_support .data .img2
+    {
+        right: 8px;
+
+        width: 560px;
+        height: auto;
+    }
+
+    .sport_support .data .img3
+    {
+        right: 8px;
+
+        width: 440px;
+        height: auto;
+    }
+
+    .sport_support .data .img4
+    {
+        left: 8px;
+
+        width: 504px;
+        height: auto;
+    }
+
+
+    .sport_support .text_block
+    {
+        font-size: 17px;
+        line-height: 150%;
+
+        text-align: left;
+    }
+
+    .sport_support .text_block1
+    {
+        width: 400px;
+    }
+
+    .sport_support .text_block2
+    {
+        width: 504px;
+        padding-top: 8px;
+        padding-bottom: 108px;
+    }
+
+    .sport_support .text_block3
+    {
+        width: 440px;
+        padding-top: 16px;
+        padding-bottom: 28px;
+
+        text-align: center;
+    }
+
+    .sport_support .text_block4
+    {
+        width: 388px;
+        padding-top: 28px;
+        padding-bottom: 28px;
+
+        text-align: center;
+    }
+
+
+    .sport_support .fbbr_logo
+    {
+        margin-bottom: 20px;
     }
 
 
